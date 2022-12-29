@@ -1,4 +1,62 @@
-.App {
+body {
+  margin: 0%;
+}
+
+.app {
+  text-align: center;
+  background-image: url("airplane.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.widget {
+  background-color: black;
+  opacity: 85%;
+  height: 29rem;
+  width: 50rem;
+}
+
+.planeContainer {
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.plane {
+  width: 10rem;
+  height: 4rem;
+  position: relative;
+  animation-name: example;
+  animation-duration: 6.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from {left: -150px;}
+  to {left: 100%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +93,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
