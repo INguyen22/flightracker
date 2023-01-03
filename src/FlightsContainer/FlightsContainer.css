@@ -3,4 +3,5 @@
     opacity: 85%;
     height: 29rem;
     width: 50rem;
+    overflow-x: auto;
   }
