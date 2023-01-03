@@ -4,7 +4,7 @@ body {
 
 .app {
   text-align: center;
-  background-image: url("airplane.png");
+  background-image: url("../Images/airplane.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -12,13 +12,6 @@ body {
   align-items: center;
   flex-direction: column;
   height: 100vh;
-}
-
-.widget {
-  background-color: black;
-  opacity: 85%;
-  height: 29rem;
-  width: 50rem;
 }
 
 .planeContainer {
